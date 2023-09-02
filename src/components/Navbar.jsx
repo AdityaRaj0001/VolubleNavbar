@@ -42,7 +42,7 @@ export default function App() {
   const menuItems = [
     <Avatar isBordered
     className="transition-transform"
-    color="secondary"
+    color="default"
     name="Jason Hughes"
     size="sm"
     src="https://i.pravatar.cc/150?u=a042581f4e29026704d"></Avatar>,
@@ -99,7 +99,7 @@ export default function App() {
           <Avatar
               isBordered
               className="transition-transform"
-              color="secondary"
+              color="default"
               name="Jason Hughes"
               size="sm"
               src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
@@ -156,8 +156,8 @@ export default function App() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem  key={`${item}-${index}`}>
             <Link
-              color="#99C7FB"
-              className="w-full"
+              
+              className="w-full text-blue-200"
               href="#"
               size="lg"
             >
